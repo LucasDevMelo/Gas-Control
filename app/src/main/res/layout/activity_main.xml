@@ -35,7 +35,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="QuilÔmetros"
+                    android:text="Quilômetros"
                     android:textColor="@color/black" />
 
                 <EditText
@@ -90,7 +90,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/calculateBtn"
         android:layout_marginTop="20dp"
-        android:text="Calculate"
+        android:text="Calcular"
         android:textColor="@color/black"
         android:textSize="16sp"
         android:layout_gravity="center"
