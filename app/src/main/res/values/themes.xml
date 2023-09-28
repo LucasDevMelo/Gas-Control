@@ -1,8 +1,15 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.ConsumoCombustivel" parent="Theme.MaterialComponents.NoActionBar">
-        <item name="colorPrimary">@color/bege</item>
-        <item name="colorPrimaryVariant">@color/bege</item>
-        <item name="android:statusBarColor">@color/bege</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+    
+    <style name="Theme.AppCompat.Starting" parent="Theme.SplashScreen">
+        <item name = "windowSplashScreenBackground">@color/navy</item>
+        <item name = "windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name = "windowSplashScreenAnimationDuration">400</item>
+        <item name = "postSplashScreenTheme">@style/Theme.ConsumoCombustivel</item>
     </style>
 </resources>

@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">ConsumoCombustivel</string>
+    <string name="app_name">Fuel Maneger -Loops</string>
+    <string name="title">Calcule o <font color="#cf6b40">consumo</font> do seu carro</string>
 </resources>

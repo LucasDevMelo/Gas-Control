@@ -9,9 +9,10 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ConsumoCombustivel"
+        android:theme="@style/Theme.AppCompat.Starting"
         tools:targetApi="31">
         <activity
+            android:theme="@style/Theme.AppCompat.Starting"
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
